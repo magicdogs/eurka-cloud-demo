@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eurka
+  profiles:
+    active: dev
+
+  
+server:
+  port: 8080
+  
+logging:
+  file: /opt/logs/100003171/apollo-configservice.log
+
